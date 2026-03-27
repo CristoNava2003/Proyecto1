@@ -1,23 +1,24 @@
-function calcularIMC() {
+document.getElementById("btnCalcular").addEventListener("click", function () {
 
     let peso = document.getElementById("peso").value;
     let altura = document.getElementById("altura").value;
 
-    // Validar campos vacíos
     if (peso === "" || altura === "") {
-        alert("Por favor llena todos los campos");
+        alert("Llena todos los campos");
         return;
     }
 
-    // Convertir a número
     peso = parseFloat(peso);
     altura = parseFloat(altura);
 
-    // Calcular IMC
+    if (altura === 0) {
+        alert("La altura no puede ser 0");
+        return;
+    }
+
     let imc = peso / (altura * altura);
 
-    // Mostrar resultado
     document.getElementById("resultado").innerText =
         imc.toFixed(2);
 
-}
+});
