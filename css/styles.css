@@ -1,0 +1,75 @@
+/* Fondo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* Contenedor */
+.container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Formulario */
+.form-box {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Botón */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Resultado */
+.resultado {
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
